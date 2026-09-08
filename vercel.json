@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "projects": {
+    "frontend": {
+      "root": "frontend",
+      "builds": [{ "src": "package.json", "use": "@vercel/static-build" }]
+    },
+    "backend": {
+      "root": "backend",
+      "builds": [{ "src": "app.py", "use": "@vercel/python" }]
+    }
+  }
+}
